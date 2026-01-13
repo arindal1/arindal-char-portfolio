@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-grid {
+    background-image:
+      linear-gradient(#18181836 1px, transparent 1px),
+      linear-gradient(to right, #18181836 1px, #0000 1px);
+    background-size: 20px 20px;
+  }
+}
+
+:root {
+  --bg: #ffffff;
+  --fg: #0f172a;
+}
+
+:root[data-theme="dark"] {
+  --bg: #020617;
+  --fg: #e5e7eb;
+}
+
+.theme-switch {
+  width: 42px;
+  height: 24px;
+  border-radius: 999px;
+  background: linear-gradient(145deg, #e5e7eb, #cbd5f5);
+  border: none;
+  padding: 2px;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.3s ease;
+}
+
+[data-theme="dark"] .theme-switch {
+  background: linear-gradient(145deg, #1e293b, #020617);
+}
+
+.thumb {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  display: block;
+  transform: translateX(0);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme="dark"] .thumb {
+  transform: translateX(18px);
+  background: #0f172a;
+}

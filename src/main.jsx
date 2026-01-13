@@ -6,7 +6,7 @@ import App from "./App.jsx";
 import Exp from "./pages/Exp.jsx";
 import Pro from "./pages/Pro.jsx";
 import Res from "./pages/Res.jsx";
-import "./index.css";
+import "../src/styles/index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

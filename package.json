@@ -10,9 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.2.0",
+    "@heroui/switch": "^2.2.26",
+    "@heroui/system": "^2.4.25",
+    "@heroui/theme": "^2.4.25",
+    "framer-motion": "^12.26.2",
+    "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "react-router-dom": "^7.12.0"
+    "react-router-dom": "^7.12.0",
+    "styled-components": "^6.3.5",
+    "tailwindcss": "^4.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
