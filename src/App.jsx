@@ -36,7 +36,7 @@ function App() {
                 mt-[2rem]
                 "
             >
-              Software Engineer at LTI Mindtree
+              Software Engineer
             </p>
             <div className="flex justify-center items-center gap-8 mt-[8rem]">
               <Button btnName="Experience" btnLink="exp" />
