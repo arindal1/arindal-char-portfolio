@@ -11,7 +11,7 @@ function Pro() {
       <CustomCursor />
       <div className="h-screen w-screen bg-blue-50 p-4">
         <div className="text-white overflow-x-hidden w-full h-full bg-grid flex justify-center">
-          <div className="font-[DM_Sans] font-normal text-black max-w-2/4 min-w-[50rem] h-auto p-10">
+          <div className="font-[DM_Sans] font-normal text-black max-w-2/4 min-w-[20rem] pt-10 pb-10 h-auto">
             <div className="flex gap-2 items-center text-black text-xl">
               <a href="/">
                 <Back className="hover:scale-120 transition-all ease-in-out" />
@@ -25,7 +25,7 @@ function Pro() {
             {/* 1st */}
 
             <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[4rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
-              <div className="flex justify-between">
+              <div className="flex justify-between flex-wrap sm:flex-nowrap">
                 <div>
                   <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
                     Blynk - A real-time chat app
@@ -57,7 +57,7 @@ function Pro() {
             {/* 2nd */}
 
             <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
-              <div className="flex justify-between">
+              <div className="flex justify-between flex-wrap sm:flex-nowrap">
                 <div>
                   <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
                     XAI w/ Counterfactuals on Attention Enhanced CNNs
@@ -92,7 +92,7 @@ function Pro() {
             {/* 3rd */}
 
             <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
-              <div className="flex justify-between">
+              <div className="flex justify-between flex-wrap sm:flex-nowrap">
                 <div>
                   <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
                     Memoirex AI - Notes App
@@ -123,7 +123,7 @@ function Pro() {
             {/* 4th */}
 
             <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
-              <div className="flex justify-between">
+              <div className="flex justify-between flex-wrap sm:flex-nowrap">
                 <div>
                   <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
                     Hotel Booking Analytics & RAG QnA
@@ -155,7 +155,7 @@ function Pro() {
             {/* 5th */}
 
             <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
-              <div className="flex justify-between">
+              <div className="flex justify-between flex-wrap sm:flex-nowrap">
                 <div>
                   <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
                     iPhone 15 - Landing Page

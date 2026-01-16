@@ -9,14 +9,14 @@ function Exp() {
     <CustomCursor/>
     <div className="h-screen w-screen bg-blue-50 p-4">
       <div className="text-white overflow-x-hidden w-full h-full bg-grid flex justify-center">
-        <div className="font-[DM_Sans] font-normal text-black max-w-2/4 min-w-[50rem] h-auto p-10">
+        <div className="font-[DM_Sans] font-normal text-black max-w-2/4 min-w-[20rem] pt-10 pb-10 h-auto">
           <div className="flex gap-2 items-center text-black text-xl">
             <a href="/">
               <Back className="hover:scale-120 transition-all ease-in-out" />
             </a>
           </div>
 
-          <div className="font-[Zalando_Sans_Expanded] font-bold text-black text-6xl flex justify-center mt-[1rem]">
+          <div className="font-[Zalando_Sans_Expanded] font-bold text-black text-4xl sm:text-6xl flex justify-center mt-[1rem]">
             <h1>EXPERIENCE</h1>
           </div>
 
@@ -24,12 +24,12 @@ function Exp() {
           <div className="text-4xl font-bold font-[Zalando_Sans_Expanded] mt-[4rem]">
             <h2>Work</h2>
           </div>
-          <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
             <div>
-              <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
+              <h2 className="sm:text-3xl text-2xl font-bold font-[Zalando_Sans_Expanded]">
                 Software Engineer
               </h2>
-              <p className="tracking-wide group-hover:text-blue-400 transition-all ease-in-out duration-300 "><span className="font-bold">LTI Mindtree </span>| June, 2025 - Present</p>
+              <p className="tracking-wide  group-hover:text-blue-400 transition-all ease-in-out duration-300 "><span className="font-bold">LTI Mindtree </span>| June, 2025 - Present</p>
             </div>
             <div>
               <p className="italic group-hover:text-blue-200 transition-all ease-in-out duration-300 ">Python, FastAPI, AgenticAI, PostgreSQL</p>
@@ -41,9 +41,9 @@ function Exp() {
             </div>
           </div>
 
-          <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
             <div>
-              <h2 className="text-3xl font-[Zalando_Sans_Expanded] font-bold">
+              <h2 className="sm:text-3xl text-2xl font-[Zalando_Sans_Expanded] font-bold">
                 Artificial Intelligence Intern
               </h2>
               <p className="tracking-wide group-hover:text-blue-400 transition-all ease-in-out duration-300"><span className="font-bold">IBM </span>| June, 2024 - August, 2024</p>
@@ -61,7 +61,7 @@ function Exp() {
           <div className="text-4xl font-bold font-[Zalando_Sans_Expanded] mt-[4rem]">
             <h2>Skills</h2>
           </div>
-          <div className="flex justify-between items-center flex-wrap gap-4 text-[1.2rem] font-medium mt-[1rem] transition-all ease-in-out duration-300">
+          <div className="flex justify-between items-center flex-wrap gap-2 sm:gap-4 text-[1.2rem] font-medium mt-[1rem] transition-all ease-in-out duration-300">
               <Bubble bubName="Java"/>
               <Bubble bubName="Python"/>
               <Bubble bubName="C/C++"/>
@@ -97,12 +97,12 @@ function Exp() {
           <div className="text-4xl font-bold font-[Zalando_Sans_Expanded] mt-[4rem]">
             <h2>Education</h2>
           </div>
-          <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] mb-[2rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1rem] p-4  mt-[1rem] mb-[2rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
             <div>
-              <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
+              <h2 className="sm:text-3xl text-2xl font-bold font-[Zalando_Sans_Expanded]">
                 Bachelor of Technology
               </h2>
-              <h2 className="text-3xl font-bold">
+              <h2 className="sm:text-3xl text-xl font-bold">
                 Computer Science & Engineering (AIML)
               </h2>
               <p className="group-hover:text-blue-200 transition-all ease-in-out duration-300 mt-[1rem]">2021 - 2025</p>
@@ -113,13 +113,13 @@ function Exp() {
           <div className="text-4xl font-bold font-[Zalando_Sans_Expanded] mt-[4rem]">
             <h2>Bonus</h2>
           </div>
-          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
             <p>I actively follow and play football (soccer) and Formula 1; represented college teams in football and basketball.</p>
           </div>
-          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
             <p>Avid reader with a strong interest in classic and modern literature, particularly works by Franz Kafka, Haruki Murakami, H.P. Lovecraft, Osamu Dazai, and George Orwell.</p>
           </div>
-          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] mb-[2rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] mb-[2rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
             <p>I like to sit down, and write down few lines, and sometimes they rhyme sometimes they don't.</p>
           </div>
         </div>

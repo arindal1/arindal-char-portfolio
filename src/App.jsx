@@ -39,12 +39,12 @@ function App() {
             >
               Software Engineer
             </p>
-            <div className="flex justify-center items-center gap-8 mt-[8rem]">
+            <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mt-[8rem]">
               <Button btnName="Experience" btnLink="exp" />
               <Button btnName="Projects" btnLink="pro" />
-              <Button btnName="Resume" btnLink="#" />
+              <Button btnName="Resume" btnLink="res" />
             </div>
-            <div className="flex gap-8 mt-[2rem] flex items-center">
+            <div className="flex gap-8 sm:gap-20 mt-[2rem] flex items-center">
               <a
                 href="https://twitter.com/arindal_17"
                 target="_blank"
