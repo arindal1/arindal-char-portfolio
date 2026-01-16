@@ -4,6 +4,7 @@ import { Linked } from "./components/Linked";
 import { Github } from "./components/Github";
 import Button from "./components/Button";
 import CustomCursor from "./components/CustomCursor";
+import { Leetcode } from "./components/Leetcode";
 
 function App() {
   return (
@@ -43,7 +44,7 @@ function App() {
               <Button btnName="Projects" btnLink="pro" />
               <Button btnName="Resume" btnLink="#" />
             </div>
-            <div className="flex gap-8 mt-[2rem]">
+            <div className="flex gap-8 mt-[2rem] flex items-center">
               <a
                 href="https://twitter.com/arindal_17"
                 target="_blank"
@@ -69,6 +70,15 @@ function App() {
                 aria-label="GitHub"
               >
                 <Github className="text-6xl text-black transition-all duration-500 ease-out hover:scale-110" />
+              </a>
+
+              <a
+                href="https://leetcode.com/u/arindal/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Leetcode"
+              >
+                <Leetcode className="text-[3rem] text-black transition-all duration-500 ease-out hover:scale-110" />
               </a>
             </div>
 

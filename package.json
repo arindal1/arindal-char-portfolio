@@ -16,6 +16,7 @@
     "framer-motion": "^12.26.2",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
+    "react-github-calendar": "^5.0.4",
     "react-router-dom": "^7.12.0",
     "styled-components": "^6.3.6",
     "tailwindcss": "^4.0.0"

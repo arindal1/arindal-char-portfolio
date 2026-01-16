@@ -75,3 +75,11 @@
 * {
   cursor: none;
 }
+
+.react-github-calendar text {
+  display: none; /* hides weekday + month labels */
+}
+
+.react-github-calendar > div:last-child {
+  display: none; /* hides total count text */
+}

@@ -24,15 +24,15 @@ function Exp() {
           <div className="text-4xl font-bold font-[Zalando_Sans_Expanded] mt-[4rem]">
             <h2>Work</h2>
           </div>
-          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
             <div>
               <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
                 Software Engineer
               </h2>
-              <p className="tracking-wide"><span className="font-bold">LTI Mindtree </span>| June, 2025 - Present</p>
+              <p className="tracking-wide group-hover:text-blue-400 transition-all ease-in-out duration-300 "><span className="font-bold">LTI Mindtree </span>| June, 2025 - Present</p>
             </div>
             <div>
-              <p className="italic">Python, FastAPI, AgenticAI, PostgreSQL</p>
+              <p className="italic group-hover:text-blue-200 transition-all ease-in-out duration-300 ">Python, FastAPI, AgenticAI, PostgreSQL</p>
               <ul className="mt-[1rem]">
                 <li className="mt-[0.5rem]">&gt; Designed and developed Azure Data Factory (ADF) pipelines to automate end-to-end ETL workflows, enabling reliable data ingestion, transformation, and loading from multiple structured data sources. Optimized SQL databases by implementing indexing strategies, query tuning, and stored procedures, improving query performance and reducing execution time by 30–40%.</li>
                 <li className="mt-[0.5rem]">&gt; Developed 4 custom Agentic AI systems using multi-agent architectures to solve diverse business use cases, including automated reasoning, workflow orchestration, and intelligent decision-making. Implemented Retrieval-Augmented Generation (RAG) pipelines to enhance LLM responses with contextual data, improving response relevance and accuracy by 40%+.</li>
@@ -40,15 +40,16 @@ function Exp() {
               </ul>
             </div>
           </div>
-          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+
+          <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
             <div>
               <h2 className="text-3xl font-[Zalando_Sans_Expanded] font-bold">
                 Artificial Intelligence Intern
               </h2>
-              <p className="tracking-wide"><span className="font-bold">IBM </span>| June, 2024 - August, 2024</p>
+              <p className="tracking-wide group-hover:text-blue-400 transition-all ease-in-out duration-300"><span className="font-bold">IBM </span>| June, 2024 - August, 2024</p>
             </div>
             <div>
-              <p className="italic">Python, Numpy, Pandas, Tensorflow</p>
+              <p className="italic group-hover:text-blue-200 transition-all ease-in-out duration-300">Python, Numpy, Pandas, Tensorflow</p>
               <ul  className="mt-[1rem]">
                 <li className="mt-[0.5rem]">&gt; Architected and deployed highly accurate and scalable NLP and Deep Learning workflows by designing, training and fine-tuning custom Artificial Neural Networks achieving 92% average classification accuracy.</li>
                 <li className="mt-[0.5rem]">&gt; Built a rule-based chatbot with IBM Watson Assistant and custom API endpoints, integrating with JavaScript front-end to automate 70% of FAQs and order-management processes.</li>
@@ -96,7 +97,7 @@ function Exp() {
           <div className="text-4xl font-bold font-[Zalando_Sans_Expanded] mt-[4rem]">
             <h2>Education</h2>
           </div>
-          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] mb-[2rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] mb-[2rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
             <div>
               <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
                 Bachelor of Technology
@@ -104,7 +105,7 @@ function Exp() {
               <h2 className="text-3xl font-bold">
                 Computer Science & Engineering (AIML)
               </h2>
-              <p>2021 - 2025</p>
+              <p className="group-hover:text-blue-200 transition-all ease-in-out duration-300 mt-[1rem]">2021 - 2025</p>
             </div>
           </div>
 
