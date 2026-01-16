@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
 @import "tailwindcss";
+@plugin 'tailwind-scrollbar';
 
 @layer utilities {
   .bg-grid {
@@ -49,4 +50,24 @@
 [data-theme="dark"] .thumb {
   transform: translateX(18px);
   background: #0f172a;
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #64748b; /* slate-500 */
+  border-radius: 1px;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #64748b transparent;
 }
