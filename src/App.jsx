@@ -3,10 +3,12 @@ import { Twitter } from "./components/Twitter";
 import { Linked } from "./components/Linked";
 import { Github } from "./components/Github";
 import Button from "./components/Button";
+import CustomCursor from "./components/CustomCursor";
 
 function App() {
   return (
     <>
+    <CustomCursor />
       <div className="h-screen w-screen bg-blue-50 p-4">
         <div className="text-white overflow-x-hidden w-full h-full bg-grid">
           <div className="z-10 text-black flex justify-center items-center">
@@ -36,10 +38,10 @@ function App() {
             >
               Software Engineer at LTI Mindtree
             </p>
-            <div className="flex justify-center items-center gap-18 mt-[8rem]">
+            <div className="flex justify-center items-center gap-8 mt-[8rem]">
               <Button btnName="Experience" btnLink="exp" />
               <Button btnName="Projects" btnLink="pro" />
-              <Button btnName="Resume" btnLink="res" />
+              <Button btnName="Resume" btnLink="#" />
             </div>
             <div className="flex gap-8 mt-[2rem]">
               <a

@@ -1,9 +1,12 @@
 import React from "react";
 import { Back } from "../components/Back";
 import Bubble from "../components/Bubble";
+import CustomCursor from "../components/CustomCursor";
 
 function Exp() {
   return (
+    <>
+    <CustomCursor/>
     <div className="h-screen w-screen bg-blue-50 p-4">
       <div className="text-white overflow-x-hidden w-full h-full bg-grid flex justify-center">
         <div className="font-[DM_Sans] font-normal text-black max-w-2/4 min-w-[50rem] h-auto p-10">
@@ -121,6 +124,7 @@ function Exp() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

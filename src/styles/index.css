@@ -71,3 +71,7 @@
   scrollbar-width: thin;
   scrollbar-color: #64748b transparent;
 }
+
+* {
+  cursor: none;
+}
