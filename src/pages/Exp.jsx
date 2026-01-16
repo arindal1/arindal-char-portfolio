@@ -24,7 +24,7 @@ function Exp() {
           <div className="text-4xl font-bold font-[Zalando_Sans_Expanded] mt-[4rem]">
             <h2>Work</h2>
           </div>
-          <div className="border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
             <div>
               <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
                 Software Engineer
@@ -40,7 +40,7 @@ function Exp() {
               </ul>
             </div>
           </div>
-          <div className="border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
             <div>
               <h2 className="text-3xl font-[Zalando_Sans_Expanded] font-bold">
                 Artificial Intelligence Intern
@@ -96,7 +96,7 @@ function Exp() {
           <div className="text-4xl font-bold font-[Zalando_Sans_Expanded] mt-[4rem]">
             <h2>Education</h2>
           </div>
-          <div className="border-2 border-black text-[1.2rem] p-4  mt-[1rem] mb-[2rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] mb-[2rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
             <div>
               <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
                 Bachelor of Technology
@@ -112,13 +112,13 @@ function Exp() {
           <div className="text-4xl font-bold font-[Zalando_Sans_Expanded] mt-[4rem]">
             <h2>Bonus</h2>
           </div>
-          <div className="border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
             <p>I actively follow and play football (soccer) and Formula 1; represented college teams in football and basketball.</p>
           </div>
-          <div className="border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
             <p>Avid reader with a strong interest in classic and modern literature, particularly works by Franz Kafka, Haruki Murakami, H.P. Lovecraft, Osamu Dazai, and George Orwell.</p>
           </div>
-          <div className="border-2 border-black text-[1.2rem] p-4  mt-[1rem] mb-[2rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] mb-[2rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
             <p>I like to sit down, and write down few lines, and sometimes they rhyme sometimes they don't.</p>
           </div>
         </div>
