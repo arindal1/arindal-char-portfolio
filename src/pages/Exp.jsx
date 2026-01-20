@@ -24,7 +24,7 @@ function Exp() {
           <div className="text-4xl font-bold font-[Zalando_Sans_Expanded] mt-[4rem]">
             <h2>Work</h2>
           </div>
-          <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
             <div>
               <h2 className="sm:text-3xl text-2xl font-bold font-[Zalando_Sans_Expanded]">
                 Software Engineer
@@ -34,14 +34,14 @@ function Exp() {
             <div>
               <p className="italic group-hover:text-blue-200 transition-all ease-in-out duration-300 ">Python, FastAPI, AgenticAI, PostgreSQL</p>
               <ul className="mt-[1rem]">
-                <li className="mt-[0.5rem]">&gt; Designed and developed Azure Data Factory (ADF) pipelines to automate end-to-end ETL workflows, enabling reliable data ingestion, transformation, and loading from multiple structured data sources. Optimized SQL databases by implementing indexing strategies, query tuning, and stored procedures, improving query performance and reducing execution time by 30–40%.</li>
-                <li className="mt-[0.5rem]">&gt; Developed 4 custom Agentic AI systems using multi-agent architectures to solve diverse business use cases, including automated reasoning, workflow orchestration, and intelligent decision-making. Implemented Retrieval-Augmented Generation (RAG) pipelines to enhance LLM responses with contextual data, improving response relevance and accuracy by 40%+.</li>
-                <li className="mt-[0.5rem]">&gt; Built scalable RESTful APIs using FastAPI to expose AI services, ensuring low latency, modular design, and production readiness. Integrated Python-based AI pipelines with Azure infrastructure, enabling secure deployment, monitoring, and scalability of AI workloads.</li>
+                <li className="mt-[0.5rem]">&gt; Built 4 production-grade Agentic AI systems, improving business decision automation accuracy by 30%+, by designing multi-agent architectures with workflow orchestration, reasoning chains, and Retrieval-Augmented Generation (RAG) pipelines.</li>
+                <li className="mt-[0.5rem]">&gt; Improved LLM response relevance by 40%+, measured via internal evaluation benchmarks, by integrating contextual enterprise data sources into RAG pipelines using vector retrieval and prompt orchestration.</li>
+                <li className="mt-[0.5rem]">&gt; Enabled secure, cloud-ready AI deployments, reducing integration friction by 20%, by deploying Python AI services on Azure infrastructure with environment-based configuration and secrets management.</li>
               </ul>
             </div>
           </div>
 
-          <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
             <div>
               <h2 className="sm:text-3xl text-2xl font-[Zalando_Sans_Expanded] font-bold">
                 Artificial Intelligence Intern
@@ -51,8 +51,8 @@ function Exp() {
             <div>
               <p className="italic group-hover:text-blue-200 transition-all ease-in-out duration-300">Python, Numpy, Pandas, Tensorflow</p>
               <ul  className="mt-[1rem]">
-                <li className="mt-[0.5rem]">&gt; Architected and deployed highly accurate and scalable NLP and Deep Learning workflows by designing, training and fine-tuning custom Artificial Neural Networks achieving 92% average classification accuracy.</li>
-                <li className="mt-[0.5rem]">&gt; Built a rule-based chatbot with IBM Watson Assistant and custom API endpoints, integrating with JavaScript front-end to automate 70% of FAQs and order-management processes.</li>
+                <li className="mt-[0.5rem]">&gt; Achieved 92% average classification accuracy, measured across validation datasets, by designing, training, and fine-tuning custom ANN and NLP models using TensorFlow.</li>
+                <li className="mt-[0.5rem]">&gt; Automated 70% of customer FAQs and order-management flows, reducing manual handling effort, by building a rule-based chatbot using IBM Watson Assistant integrated with custom backend APIs.</li>
               </ul>
             </div>
           </div>
@@ -97,7 +97,7 @@ function Exp() {
           <div className="text-4xl font-bold font-[Zalando_Sans_Expanded] mt-[4rem]">
             <h2>Education</h2>
           </div>
-          <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1rem] p-4  mt-[1rem] mb-[2rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1rem] p-4  mt-[1rem] mb-[2rem] hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
             <div>
               <h2 className="sm:text-3xl text-2xl font-bold font-[Zalando_Sans_Expanded]">
                 Bachelor of Technology
@@ -109,18 +109,26 @@ function Exp() {
             </div>
           </div>
 
+          {/* Achievements */}
+          <div className="text-4xl font-bold font-[Zalando_Sans_Expanded] mt-[4rem]">
+            <h2>Achievements</h2>
+          </div>
+          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
+            <p>Qualified for GATE in my third year [2023].</p>
+          </div>
+
           {/* Bonus */}
           <div className="text-4xl font-bold font-[Zalando_Sans_Expanded] mt-[4rem]">
             <h2>Bonus</h2>
           </div>
-          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
             <p>I actively follow and play football (soccer) and Formula 1; represented college teams in football and basketball.</p>
           </div>
-          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
             <p>Avid reader with a strong interest in classic and modern literature, particularly works by Franz Kafka, Haruki Murakami, H.P. Lovecraft, Osamu Dazai, and George Orwell.</p>
           </div>
-          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] mb-[2rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
-            <p>I like to sit down, and write down few lines, and sometimes they rhyme sometimes they don't.</p>
+          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] mb-[2rem] hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
+            <p>I like to sit down, and write few lines, and sometimes they rhyme sometimes they don't.</p>
           </div>
         </div>
       </div>

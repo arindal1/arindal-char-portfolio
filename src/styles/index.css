@@ -83,3 +83,8 @@
 .react-github-calendar > div:last-child {
   display: none; /* hides total count text */
 }
+
+.key-emp {
+  color: #bedbff;
+  font-style: italic;
+}

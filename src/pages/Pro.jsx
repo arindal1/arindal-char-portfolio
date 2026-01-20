@@ -24,7 +24,7 @@ function Pro() {
 
             {/* 1st */}
 
-            <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[4rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+            <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[4rem] hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
               <div className="flex justify-between flex-wrap sm:flex-nowrap">
                 <div>
                   <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
@@ -56,7 +56,7 @@ function Pro() {
 
             {/* 2nd */}
 
-            <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+            <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
               <div className="flex justify-between flex-wrap sm:flex-nowrap">
                 <div>
                   <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
@@ -91,7 +91,7 @@ function Pro() {
 
             {/* 3rd */}
 
-            <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+            <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
               <div className="flex justify-between flex-wrap sm:flex-nowrap">
                 <div>
                   <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
@@ -122,7 +122,7 @@ function Pro() {
 
             {/* 4th */}
 
-            <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+            <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
               <div className="flex justify-between flex-wrap sm:flex-nowrap">
                 <div>
                   <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
@@ -154,7 +154,7 @@ function Pro() {
 
             {/* 5th */}
 
-            <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-black hover:text-blue-50 transition-all ease-in-out duration-300">
+            <div className="group bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[1.2rem] p-4  mt-[1rem] hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
               <div className="flex justify-between flex-wrap sm:flex-nowrap">
                 <div>
                   <h2 className="text-3xl font-bold font-[Zalando_Sans_Expanded]">
