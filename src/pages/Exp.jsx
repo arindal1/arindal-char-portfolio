@@ -116,6 +116,9 @@ function Exp() {
           <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
             <p>Qualified for GATE in my third year [2023].</p>
           </div>
+          <div className="bg-[#ffffff00] backdrop-blur-xs border-2 border-black text-[0.9rem] sm:text-[1.2rem] p-4  mt-[1rem] hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
+            <p>Achieved top 15% in Leetcode contests with a rating of 1700.</p>
+          </div>
 
           {/* Bonus */}
           <div className="text-4xl font-bold font-[Zalando_Sans_Expanded] mt-[4rem]">

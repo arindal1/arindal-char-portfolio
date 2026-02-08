@@ -29,49 +29,57 @@ function Res() {
             {/* 1st */}
 
             <div className="mt-[4rem] text-2xl">
-              <div className="border-2 flex gap-4 items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
+              <div className="bg-[#ffffff00] backdrop-blur-xs border-2 flex gap-4 items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
                 <Phone width="2rem" height="2rem" />
                 <p>+91 90949 40551</p>
               </div>
-              <a href="mailto:arindalchar17@gmail.com">
-                <div className="border-2 flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
+              <a href="mailto:arindalchar17@gmail.com" target="_blank">
+                <div className="bg-[#ffffff00] backdrop-blur-xs border-2 flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
                   <Mail width="2rem" height="2rem" />
                   <p>arindalchar17@gmail.com</p>
                 </div>
               </a>
-              <a
-                href="https://drive.google.com/file/d/1fr5Q_tk8NOZttplj1vNiwHsaw8Ptgx2f/view?usp=sharing"
-                target="_blank"
-              >
-                <div className="border-2 flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
-                  <Back width="2rem" height="2rem" className="rotate-180" />
-                  <p>Resume</p>
-                </div>
-              </a>
-              <a href="https://github.com/arindal1" target="_blank">
-                <div className="border-2 flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
-                  <Github width="2rem" height="2rem" />
-                  <p>Github</p>
-                </div>
-              </a>
-              <a href="https://linkedin.com/in/arindalchar" target="_blank">
-                <div className="border-2 flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
-                  <Linked width="2rem" height="2rem" />
-                  <p>Linked In</p>
-                </div>
-              </a>
-              <a href="https://twitter.com/arindal_17" target="_blank">
-                <div className="border-2 flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
-                  <Twitter width="2rem" height="2rem" />
-                  <p>X [Twitter]</p>
-                </div>
-              </a>
-              <a href="https://leetcode.com/u/arindal/" target="_blank">
-                <div className="border-2 flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
-                  <Code width="2rem" height="2rem" />
-                  <p>Leetcode</p>
-                </div>
-              </a>
+              <div className="flex flex-wrap justify-between">
+                <a
+                  href="https://drive.google.com/file/d/1fr5Q_tk8NOZttplj1vNiwHsaw8Ptgx2f/view?usp=sharing"
+                  target="_blank"
+                >
+                  <div className="bg-[#ffffff00] backdrop-blur-xs border-2 w-[13rem] flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
+                    <Back width="2rem" height="2rem" className="rotate-180" />
+                    <p>resume.pdf</p>
+                  </div>
+                </a>
+                <a href="https://github.com/arindal1" target="_blank">
+                  <div className="bg-[#ffffff00] backdrop-blur-xs border-2 w-[13rem] flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
+                    <Github width="2rem" height="2rem" />
+                    <p>Github</p>
+                  </div>
+                </a>
+                <a href="https://linkedin.com/in/arindalchar" target="_blank">
+                  <div className="bg-[#ffffff00] backdrop-blur-xs border-2 w-[13rem] flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
+                    <Linked width="2rem" height="2rem" />
+                    <p>Linked In</p>
+                  </div>
+                </a>
+                <a href="https://twitter.com/arindal_17" target="_blank">
+                  <div className="bg-[#ffffff00] backdrop-blur-xs border-2 w-[13rem] flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
+                    <Twitter width="2rem" height="2rem" />
+                    <p>X [Twitter]</p>
+                  </div>
+                </a>
+                <a href="https://leetcode.com/u/arindal/" target="_blank">
+                  <div className="bg-[#ffffff00] backdrop-blur-xs border-2 w-[13rem] flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
+                    <Code width="2rem" height="2rem" />
+                    <p>Leetcode</p>
+                  </div>
+                </a>
+                <a href="https://medium.com/@arindalchar17" target="_blank">
+                  <div className="bg-[#ffffff00] backdrop-blur-xs border-2 w-[13rem] flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
+                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968885.png" alt="medium" className="w-[2rem] h-[2rem]"/>
+                    <p>Medium</p>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
