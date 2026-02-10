@@ -5,10 +5,12 @@ import { Github } from "./components/Github";
 import Button from "./components/Button";
 import CustomCursor from "./components/CustomCursor";
 import { Leetcode } from "./components/Leetcode";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
     <>
+    <Analytics/>
     <CustomCursor />
       <div className="h-screen w-screen bg-blue-50 p-4">
         <div className="text-white overflow-x-hidden w-full h-full bg-grid">
