@@ -28,12 +28,6 @@ function Res() {
 
             {/* 1st */}
 
-            <a href="https://drive.google.com/file/d/1N5Buj4-iPqbWhLXHJJ-rZDlah2V2oeUo/view?usp=sharing" target="_blank">
-                  <div className="bg-[#ffffff00] backdrop-blur-xs border-2 flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
-                    <Back width="2rem" height="2rem" className="rotate-180" />
-                    <p>resume.pdf</p>
-                  </div>
-                </a>
             <div className="mt-[4rem] text-2xl">
               <div className="bg-[#ffffff00] backdrop-blur-xs border-2 flex gap-4 items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300">
                 <Phone width="2rem" height="2rem" />
@@ -45,6 +39,12 @@ function Res() {
                   <p>arindalchar17@gmail.com</p>
                 </div>
               </a>
+              <a href="https://drive.google.com/file/d/1N5Buj4-iPqbWhLXHJJ-rZDlah2V2oeUo/view?usp=sharing" target="_blank">
+                  <div className="bg-[#ffffff00] backdrop-blur-xs border-2 flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
+                    <Back width="2rem" height="2rem" className="rotate-180" />
+                    <p>resume.pdf</p>
+                  </div>
+                </a>
                 <a href="https://github.com/arindal1" target="_blank">
                   <div className="bg-[#ffffff00] backdrop-blur-xs border-2 flex gap-4 mt-[1rem] items-center p-2 hover:bg-slate-900 hover:text-blue-50 transition-all ease-in-out duration-300 hover:cursor-pointer">
                     <Github width="2rem" height="2rem" />
